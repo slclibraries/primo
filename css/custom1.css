@@ -1,19 +1,17 @@
 /* icons */
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 /* FONT */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;800&display=swap');
-button, html, input, select, textarea {
-  font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+button, html, input, select, textarea, body, .md-chips {
+  font-family: "Atkinson Hyperlegible", sans-serif;
 }
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-/* remove yellow Sign In bar
+/* remove Sign In bar
 .alert-bar {
 display:none;
 } */
 #banner {
-  width: 240px;
+  width: 300px;
+  width: 80px;
 }
 prm-logo .product-logo, prm-logo img {
  padding: 0;
@@ -27,7 +25,9 @@ prm-topbar prm-logo {
   height: 100%;
   padding: 5px;
 }
-
+.bar {
+  border-radius: 0;
+}
 ::selection {
   background: #fffcc4;
   color:black;
@@ -48,10 +48,10 @@ prm-reference-entry-item .item-title {
   color: black;
 }
 prm-facet-exact .section-title prm-icon {
-  color: #e1251b;
+  color: #A91B14;
 }
 prm-facet-range .section-title prm-icon {
-  color: #e1251b;
+  color: #A91B14;
 }
 prm-main-menu[menu-type="full"] .md-button .md-headline, prm-main-menu[menu-type="full"] .overlay-menu-item .md-headline {
   color: white;
@@ -60,14 +60,18 @@ prm-main-menu[menu-type="full"] .md-button .md-headline, prm-main-menu[menu-type
   color: white !important;
 }
 .hoverable-over-dark:not(.disable-hover):focus:not([disabled])._md-focused:not([disabled]), .hoverable-over-dark:not(.disable-hover):focus:not([disabled]).hovered:not([disabled]), .hoverable-over-dark:not(.disable-hover):focus:not([disabled]).md-focused:not([disabled]), .hoverable-over-dark:not(.disable-hover):focus:not([disabled]):focus:not([disabled]), .hoverable-over-dark:not(.disable-hover):focus:not([disabled]):hover:not([disabled]), .hoverable-over-dark:not(.disable-hover):hover:not([disabled])._md-focused:not([disabled]), .hoverable-over-dark:not(.disable-hover):hover:not([disabled]).hovered:not([disabled]), .hoverable-over-dark:not(.disable-hover):hover:not([disabled]).md-focused:not([disabled]), .hoverable-over-dark:not(.disable-hover):hover:not([disabled]):focus:not([disabled]), .hoverable-over-dark:not(.disable-hover):hover:not([disabled]):hover:not([disabled]), .md-button.button-over-dark:not(.disable-hover):focus:not([disabled])._md-focused:not([disabled]), .md-button.button-over-dark:not(.disable-hover):focus:not([disabled]).hovered:not([disabled]), .md-button.button-over-dark:not(.disable-hover):focus:not([disabled]).md-focused:not([disabled]), .md-button.button-over-dark:not(.disable-hover):focus:not([disabled]):focus:not([disabled]), .md-button.button-over-dark:not(.disable-hover):focus:not([disabled]):hover:not([disabled]), .md-button.button-over-dark:not(.disable-hover):hover:not([disabled])._md-focused:not([disabled]), .md-button.button-over-dark:not(.disable-hover):hover:not([disabled]).hovered:not([disabled]), .md-button.button-over-dark:not(.disable-hover):hover:not([disabled]).md-focused:not([disabled]), .md-button.button-over-dark:not(.disable-hover):hover:not([disabled]):focus:not([disabled]), .md-button.button-over-dark:not(.disable-hover):hover:not([disabled]):hover:not([disabled]), prm-main-menu[menu-type="full"] .md-button .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus:not([disabled])._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .md-button .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus:not([disabled]).hovered:not([disabled]), prm-main-menu[menu-type="full"] .md-button .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus:not([disabled]).md-focused:not([disabled]), prm-main-menu[menu-type="full"] .md-button .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus:not([disabled]):focus:not([disabled]), prm-main-menu[menu-type="full"] .md-button .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus:not([disabled]):hover:not([disabled]), prm-main-menu[menu-type="full"] .md-button .md-input-container-dummy > .md-select-dummy:not(.disable-hover):hover:not([disabled])._md-focused:not([disabled]):focus, prm-main-menu[menu-type="full"] .md-button .md-input-container-dummy > .md-select-dummy:not(.disable-hover):hover:not([disabled]).hovered:not([disabled]):focus, prm-main-menu[menu-type="full"] .md-button .md-input-container-dummy > .md-select-dummy:not(.disable-hover):hover:not([disabled]).md-focused:not([disabled]):focus, prm-main-menu[menu-type="full"] .md-button .md-input-container-dummy > .md-select-dummy:not(.disable-hover):hover:not([disabled]):focus:not([disabled]), prm-main-menu[menu-type="full"] .md-button .md-input-container-dummy > .md-select-dummy:not(.disable-hover):hover:not([disabled]):hover:not([disabled]):focus, prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):focus:not([disabled])._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):focus:not([disabled]).hovered:not([disabled]), prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):focus:not([disabled]).md-focused:not([disabled]), prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):focus:not([disabled]):focus:not([disabled]), prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):focus:not([disabled]):hover:not([disabled]), prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):hover:not([disabled])._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):hover:not([disabled]).hovered:not([disabled]), prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):hover:not([disabled]).md-focused:not([disabled]), prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):hover:not([disabled]):focus:not([disabled]), prm-main-menu[menu-type="full"] .md-button:not(.disable-hover):hover:not([disabled]):hover:not([disabled]), prm-main-menu[menu-type="full"] .md-button md-select:not(.disable-hover):focus:not([disabled])._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .md-button md-select:not(.disable-hover):focus:not([disabled]).hovered:not([disabled]), prm-main-menu[menu-type="full"] .md-button md-select:not(.disable-hover):focus:not([disabled]).md-focused:not([disabled]), prm-main-menu[menu-type="full"] .md-button md-select:not(.disable-hover):focus:not([disabled]):focus:not([disabled]), prm-main-menu[menu-type="full"] .md-button md-select:not(.disable-hover):focus:not([disabled]):hover:not([disabled]), prm-main-menu[menu-type="full"] .md-button md-select:not(.disable-hover):hover:not([disabled])._md-focused:not([disabled]):focus, prm-main-menu[menu-type="full"] .md-button md-select:not(.disable-hover):hover:not([disabled]).hovered:not([disabled]):focus, prm-main-menu[menu-type="full"] .md-button md-select:not(.disable-hover):hover:not([disabled]).md-focused:not([disabled]):focus, prm-main-menu[menu-type="full"] .md-button md-select:not(.disable-hover):hover:not([disabled]):focus:not([disabled]), prm-main-menu[menu-type="full"] .md-button md-select:not(.disable-hover):hover:not([disabled]):hover:not([disabled]):focus, prm-main-menu[menu-type="full"] .overlay-menu-item .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus:not([disabled])._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus:not([disabled]).hovered:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus:not([disabled]).md-focused:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus:not([disabled]):focus:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item .md-input-container-dummy > .md-select-dummy:not(.disable-hover):focus:not([disabled]):hover:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item .md-input-container-dummy > .md-select-dummy:not(.disable-hover):hover:not([disabled])._md-focused:not([disabled]):focus, prm-main-menu[menu-type="full"] .overlay-menu-item .md-input-container-dummy > .md-select-dummy:not(.disable-hover):hover:not([disabled]).hovered:not([disabled]):focus, prm-main-menu[menu-type="full"] .overlay-menu-item .md-input-container-dummy > .md-select-dummy:not(.disable-hover):hover:not([disabled]).md-focused:not([disabled]):focus, prm-main-menu[menu-type="full"] .overlay-menu-item .md-input-container-dummy > .md-select-dummy:not(.disable-hover):hover:not([disabled]):focus:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item .md-input-container-dummy > .md-select-dummy:not(.disable-hover):hover:not([disabled]):hover:not([disabled]):focus, prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):focus:not([disabled])._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):focus:not([disabled]).hovered:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):focus:not([disabled]).md-focused:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):focus:not([disabled]):focus:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):focus:not([disabled]):hover:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):hover:not([disabled])._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):hover:not([disabled]).hovered:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):hover:not([disabled]).md-focused:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):hover:not([disabled]):focus:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item:not(.disable-hover):hover:not([disabled]):hover:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item md-select:not(.disable-hover):focus:not([disabled])._md-focused:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item md-select:not(.disable-hover):focus:not([disabled]).hovered:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item md-select:not(.disable-hover):focus:not([disabled]).md-focused:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item md-select:not(.disable-hover):focus:not([disabled]):focus:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item md-select:not(.disable-hover):focus:not([disabled]):hover:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item md-select:not(.disable-hover):hover:not([disabled])._md-focused:not([disabled]):focus, prm-main-menu[menu-type="full"] .overlay-menu-item md-select:not(.disable-hover):hover:not([disabled]).hovered:not([disabled]):focus, prm-main-menu[menu-type="full"] .overlay-menu-item md-select:not(.disable-hover):hover:not([disabled]).md-focused:not([disabled]):focus, prm-main-menu[menu-type="full"] .overlay-menu-item md-select:not(.disable-hover):hover:not([disabled]):focus:not([disabled]), prm-main-menu[menu-type="full"] .overlay-menu-item md-select:not(.disable-hover):hover:not([disabled]):hover:not([disabled]):focus, prm-main-menu[menu-type="full"] md-button:not(.disable-hover):focus:not([disabled])._md-focused:not([disabled]), prm-main-menu[menu-type="full"] md-button:not(.disable-hover):focus:not([disabled]).hovered:not([disabled]), prm-main-menu[menu-type="full"] md-button:not(.disable-hover):focus:not([disabled]).md-focused:not([disabled]), prm-main-menu[menu-type="full"] md-button:not(.disable-hover):focus:not([disabled]):focus:not([disabled]), prm-main-menu[menu-type="full"] md-button:not(.disable-hover):focus:not([disabled]):hover:not([disabled]), prm-main-menu[menu-type="full"] md-button:not(.disable-hover):hover:not([disabled])._md-focused:not([disabled]), prm-main-menu[menu-type="full"] md-button:not(.disable-hover):hover:not([disabled]).hovered:not([disabled]), prm-main-menu[menu-type="full"] md-button:not(.disable-hover):hover:not([disabled]).md-focused:not([disabled]), prm-main-menu[menu-type="full"] md-button:not(.disable-hover):hover:not([disabled]):focus:not([disabled]), prm-main-menu[menu-type="full"] md-button:not(.disable-hover):hover:not([disabled]):hover:not([disabled]), prm-topbar .md-button:not(.disable-hover):focus:not([disabled])._md-focused:not([disabled]), prm-topbar .md-button:not(.disable-hover):focus:not([disabled]).hovered:not([disabled]), prm-topbar .md-button:not(.disable-hover):focus:not([disabled]).md-focused:not([disabled]), prm-topbar .md-button:not(.disable-hover):focus:not([disabled]):focus:not([disabled]), prm-topbar .md-button:not(.disable-hover):focus:not([disabled]):hover:not([disabled]), prm-topbar .md-button:not(.disable-hover):hover:not([disabled])._md-focused:not([disabled]), prm-topbar .md-button:not(.disable-hover):hover:not([disabled]).hovered:not([disabled]), prm-topbar .md-button:not(.disable-hover):hover:not([disabled]).md-focused:not([disabled]), prm-topbar .md-button:not(.disable-hover):hover:not([disabled]):focus:not([disabled]), prm-topbar .md-button:not(.disable-hover):hover:not([disabled]):hover:not([disabled]), prm-user-area .md-button.user-menu-button:not(.disable-hover):focus:not([disabled])._md-focused:not([disabled]), prm-user-area .md-button.user-menu-button:not(.disable-hover):focus:not([disabled]).hovered:not([disabled]), prm-user-area .md-button.user-menu-button:not(.disable-hover):focus:not([disabled]).md-focused:not([disabled]), prm-user-area .md-button.user-menu-button:not(.disable-hover):focus:not([disabled]):focus:not([disabled]), prm-user-area .md-button.user-menu-button:not(.disable-hover):focus:not([disabled]):hover:not([disabled]), prm-user-area .md-button.user-menu-button:not(.disable-hover):hover:not([disabled])._md-focused:not([disabled]), prm-user-area .md-button.user-menu-button:not(.disable-hover):hover:not([disabled]).hovered:not([disabled]), prm-user-area .md-button.user-menu-button:not(.disable-hover):hover:not([disabled]).md-focused:not([disabled]), prm-user-area .md-button.user-menu-button:not(.disable-hover):hover:not([disabled]):focus:not([disabled]), prm-user-area .md-button.user-menu-button:not(.disable-hover):hover:not([disabled]):hover:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:not(.disable-hover):focus:not([disabled])._md-focused:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:not(.disable-hover):focus:not([disabled]).hovered:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:not(.disable-hover):focus:not([disabled]).md-focused:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:not(.disable-hover):focus:not([disabled]):focus:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:not(.disable-hover):focus:not([disabled]):hover:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:not(.disable-hover):hover:not([disabled])._md-focused:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:not(.disable-hover):hover:not([disabled]).hovered:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:not(.disable-hover):hover:not([disabled]).md-focused:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:not(.disable-hover):hover:not([disabled]):focus:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:not(.disable-hover):hover:not([disabled]):hover:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:not(.disable-hover):focus:not([disabled])._md-focused:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:not(.disable-hover):focus:not([disabled]).hovered:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:not(.disable-hover):focus:not([disabled]).md-focused:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:not(.disable-hover):focus:not([disabled]):focus:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:not(.disable-hover):focus:not([disabled]):hover:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:not(.disable-hover):hover:not([disabled])._md-focused:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:not(.disable-hover):hover:not([disabled]).hovered:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:not(.disable-hover):hover:not([disabled]).md-focused:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:not(.disable-hover):hover:not([disabled]):focus:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:not(.disable-hover):hover:not([disabled]):hover:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .md-button:not(.disable-hover):focus:not([disabled])._md-focused:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .md-button:not(.disable-hover):focus:not([disabled]).hovered:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .md-button:not(.disable-hover):focus:not([disabled]).md-focused:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .md-button:not(.disable-hover):focus:not([disabled]):focus:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .md-button:not(.disable-hover):focus:not([disabled]):hover:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .md-button:not(.disable-hover):hover:not([disabled])._md-focused:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .md-button:not(.disable-hover):hover:not([disabled]).hovered:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .md-button:not(.disable-hover):hover:not([disabled]).md-focused:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .md-button:not(.disable-hover):hover:not([disabled]):focus:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .md-button:not(.disable-hover):hover:not([disabled]):hover:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:not(.disable-hover):focus:not([disabled])._md-focused:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:not(.disable-hover):focus:not([disabled]).hovered:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:not(.disable-hover):focus:not([disabled]).md-focused:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:not(.disable-hover):focus:not([disabled]):focus:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:not(.disable-hover):focus:not([disabled]):hover:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:not(.disable-hover):hover:not([disabled])._md-focused:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:not(.disable-hover):hover:not([disabled]).hovered:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:not(.disable-hover):hover:not([disabled]).md-focused:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:not(.disable-hover):hover:not([disabled]):focus:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:not(.disable-hover):hover:not([disabled]):hover:not([disabled]) {
-  color: #8d5353;
+  color: #fff;
+  background-color: #414042;
+}
+.hoverable-over-dark:not(.disable-hover), .md-button.button-over-dark:not(.disable-hover), prm-main-menu[menu-type=full] .md-button.md-focused:not(.disable-hover), prm-main-menu[menu-type=full] .md-button .md-input-container-dummy>.md-select-dummy:not(.disable-hover):focus, prm-main-menu[menu-type=full] .md-button:not(.disable-hover):focus, prm-main-menu[menu-type=full] .md-button:not(.disable-hover):hover, prm-main-menu[menu-type=full] .md-button md-select:not(.disable-hover):focus, prm-main-menu[menu-type=full] .overlay-menu-item.md-focused:not(.disable-hover), prm-main-menu[menu-type=full] .overlay-menu-item .md-input-container-dummy>.md-select-dummy:not(.disable-hover):focus, prm-main-menu[menu-type=full] .overlay-menu-item:not(.disable-hover):focus, prm-main-menu[menu-type=full] .overlay-menu-item:not(.disable-hover):hover, prm-main-menu[menu-type=full] .overlay-menu-item md-select:not(.disable-hover):focus, prm-main-menu[menu-type=full] md-button:not(.disable-hover):focus, prm-main-menu[menu-type=full] md-button:not(.disable-hover):hover, prm-topbar .md-button:not(.disable-hover):not(.close-btn-favorits-warning-message), prm-user-area .md-button.user-menu-button:not(.disable-hover), prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:not(.disable-hover), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:not(.disable-hover), prm-user-area md-fab-toolbar .md-fab-action-item .md-button:not(.disable-hover), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:not(.disable-hover) {
+  color: white;
 }
 .lib-chat-button {
   position: fixed;
   bottom: 0px;
   right: 1.2rem;
-  border-radius: 25px 25px 0px 0px;
-  background-color:#e1251b;
+  border-radius: .462rem .462rem 0 0;
+  background-color:#A91B14;
   color: white;
   text-decoration: none;
   padding: 10px 16px;
@@ -94,7 +98,7 @@ prm-main-menu[menu-type="full"] .md-button .md-headline, prm-main-menu[menu-type
 prm-explore-footer-after #footerWrapper {margin-top: 20px;}
 
 #footerWrapper {
-	background-color:#5c5c5c;
+	background-color:#545454;
     position:relative;
     z-index:1;
 }
@@ -136,7 +140,7 @@ prm-explore-footer-after #footerWrapper {margin-top: 20px;}
 	padding: 5px;
 }
 .ftext a:hover {
-    color:#e1251b;
+    color:#A91B14;
 }
 span.headline {
 	font-weight: strong;
@@ -284,10 +288,10 @@ span.hide-sm:hover {
       color: #231F20;
       background-color: white; }
   .md-button.button-confirm, .service-form-static-panel button.button-confirm prm-icon + span, .service-form-static-panel button.button-confirm prm-icon svg path {
-    color: #e1251b; }
+    color: #A91B14; }
     .md-button.button-confirm:hover:not([disabled]), .service-form-static-panel button.button-confirm prm-icon + span:hover:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path:hover:not([disabled]), .md-button.button-confirm:focus:not([disabled]), .service-form-static-panel button.button-confirm prm-icon + span:focus:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path:focus:not([disabled]), .md-button.button-confirm.hovered:not([disabled]), .service-form-static-panel button.button-confirm prm-icon + span.hovered:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path.hovered:not([disabled]), .md-button.button-confirm.md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon + span.md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path.md-focused:not([disabled]), .md-button.button-confirm._md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon + span._md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path._md-focused:not([disabled]) {
       color: white;
-      background-color: #e1251b; }
+      background-color: #A91B14; }
     .light-on-dark-dialog .md-button.button-confirm, .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon + span, .service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span, .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon svg path, .service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path {
       color: #ff3333; }
       .light-on-dark-dialog .md-button.button-confirm:hover:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon + span:hover:not([disabled]), .service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span:hover:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon svg path:hover:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path:hover:not([disabled]), .light-on-dark-dialog .md-button.button-confirm:focus:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon + span:focus:not([disabled]), .service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span:focus:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon svg path:focus:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path:focus:not([disabled]), .light-on-dark-dialog .md-button.button-confirm.hovered:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon + span.hovered:not([disabled]), .service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span.hovered:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon svg path.hovered:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path.hovered:not([disabled]), .light-on-dark-dialog .md-button.button-confirm.md-focused:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon + span.md-focused:not([disabled]), .service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span.md-focused:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon svg path.md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path.md-focused:not([disabled]), .light-on-dark-dialog .md-button.button-confirm._md-focused:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon + span._md-focused:not([disabled]), .service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span._md-focused:not([disabled]), .light-on-dark-dialog .service-form-static-panel button.button-confirm prm-icon svg path._md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path._md-focused:not([disabled]) {
@@ -304,10 +308,10 @@ span.hide-sm:hover {
       color: #231F20;
       background-color: white; }
   .md-button.button-warn {
-    color: #e1251b; }
+    color: #A91B14; }
     .md-button.button-warn:hover:not([disabled]), .md-button.button-warn:focus:not([disabled]), .md-button.button-warn.hovered:not([disabled]), .md-button.button-warn.md-focused:not([disabled]), .md-button.button-warn._md-focused:not([disabled]) {
       color: white;
-      background-color: #e1251b; }
+      background-color: #A91B14; }
   .md-button.button-link, md-grid-tile .tile-content > .md-button,
   .tiles-grid-tile .tile-content > .md-button {
     color: #bc5c5c;
@@ -548,17 +552,17 @@ span.hide-sm:hover {
 
 .prm-primary-bg, prm-spinner.overlay-cover.light-on-dark:after, prm-search-bar, prm-atoz-search-bar, prm-browse-search-bar, prm-tags-search-bar, prm-newspapers-search-bar, prm-collection-gallery-header .collection-header-inner, prm-tree-nav prm-spinner .diamond {
   color: white;
-  background-color: #5c5c5c; }
+  background-color: #545454; }
   .prm-primary-bg.prm-hue1, prm-spinner.prm-hue1.overlay-cover.light-on-dark:after, prm-search-bar.prm-hue1, prm-atoz-search-bar.prm-hue1, prm-browse-search-bar.prm-hue1, prm-tags-search-bar.prm-hue1, prm-newspapers-search-bar.prm-hue1, prm-collection-gallery-header .prm-hue1.collection-header-inner, prm-tree-nav prm-spinner .prm-hue1.diamond, md-dialog-content md-input-container.dark-on-light:after, md-input-container:after {
-    background-color: #e1251b; }
+    background-color: #A91B14; }
   .prm-primary-bg.prm-hue2, prm-spinner.prm-hue2.overlay-cover.light-on-dark:after, prm-search-bar.prm-hue2, prm-atoz-search-bar.prm-hue2, prm-browse-search-bar.prm-hue2, prm-tags-search-bar.prm-hue2, prm-newspapers-search-bar.prm-hue2, prm-collection-gallery-header .prm-hue2.collection-header-inner, prm-tree-nav prm-spinner .prm-hue2.diamond, md-backdrop.md-opaque {
-    background-color: #e1251b; }
+    background-color: #A91B14; }
   .prm-primary-bg.prm-hue3, prm-spinner.prm-hue3.overlay-cover.light-on-dark:after, prm-topbar .top-nav-bar, prm-search-bar.prm-hue3, prm-atoz-search-bar.prm-hue3, prm-browse-search-bar.prm-hue3, prm-tags-search-bar.prm-hue3, prm-newspapers-search-bar.prm-hue3, prm-collection-gallery-header .prm-hue3.collection-header-inner, prm-tree-nav prm-spinner .prm-hue3.diamond {
-    background-color: #e1251b; }
+    background-color: #A91B14; }
     .prm-primary-bg.prm-hue3-important, prm-spinner.prm-hue3-important.overlay-cover.light-on-dark:after, prm-user-area md-fab-toolbar.md-is-open md-fab-trigger .md-fab-toolbar-background, prm-user-area md-fab-toolbar.md-is-open md-fab-trigger ._md-fab-toolbar-background, prm-search-bar.prm-hue3-important, prm-atoz-search-bar.prm-hue3-important, prm-browse-search-bar.prm-hue3-important, prm-tags-search-bar.prm-hue3-important, prm-newspapers-search-bar.prm-hue3-important, prm-collection-gallery-header .prm-hue3-important.collection-header-inner, prm-tree-nav prm-spinner .prm-hue3-important.diamond {
-      background-color: #e1251b !important; }
+      background-color: #A91B14 !important; }
   .prm-primary-bg.prm-hue4, prm-spinner.prm-hue4.overlay-cover.light-on-dark:after, prm-search-bar.prm-hue4, prm-atoz-search-bar.prm-hue4, prm-browse-search-bar.prm-hue4, prm-tags-search-bar.prm-hue4, prm-newspapers-search-bar.prm-hue4, prm-collection-gallery-header .prm-hue4.collection-header-inner, prm-tree-nav prm-spinner .prm-hue4.diamond {
-    background-color: #e1251b; }
+    background-color: #A91B14; }
 
   .prm-primary-border {
     border-color: #cccccc; }
@@ -1037,7 +1041,7 @@ md-toolbar.default-toolbar:not(.md-menu-toolbar) {
     background-color: #ff6347; }
     .prm-warn-bg.prm-hue1, .multiselect-facet-group .md-chip.facet-excluded md-checkbox.md-checked .prm-hue1.md-icon,
     .multiselect-facet-group .md-chip.facet-excluded md-checkbox.md-checked .prm-hue1._md-icon, .multiselect-facet-group .md-chip.facet-excluded md-checkbox.md-checked.md-focused .prm-hue1._md-container:before, md-input-container.md-input-invalid:after {
-      background-color: #e1251b; }
+      background-color: #A91B14; }
 
 .prm-alert, .bar.alert-bar, .classic-input .search-scope {
   color: white; }
@@ -1088,9 +1092,9 @@ md-toolbar.default-toolbar:not(.md-menu-toolbar) {
   .prm-hue1.fulltext_linktorsrc_topic,
   .prm-hue1.fulltext_topic,
   .prm-hue1.esploro_status\.not_restricted {
-    color: #e1251b; }
+    color: #A91B14; }
   .prm-positive-bg, .multiselect-submit .multiselect-submit-inner .md-button.md-primary {
-    background-color: #e1251b; }
+    background-color: #A91B14; }
 
   .multiselect-submit .multiselect-submit-inner .md-button.md-primary {
     color:white;
@@ -1113,18 +1117,18 @@ md-toolbar.default-toolbar:not(.md-menu-toolbar) {
 .prm-citation-color, prm-chapters-and-reviews .item-type {
   color: tomato; }
   .prm-citation-color.prm-hue2, prm-citation-trails-item .item-type, prm-chapters-and-reviews .prm-hue2.item-type {
-    color: #e1251b; }
+    color: #A91B14; }
   .prm-citation-color.prm-hue3, prm-chapters-and-reviews .prm-hue3.item-type {
-    color: #e1251b; }
+    color: #A91B14; }
   .prm-citation-color.citation-hover, prm-citation-trails-indication .md-button.md-icon-button:hover, prm-citation-trails-indication .md-button.button-with-icon:hover, prm-chapters-and-reviews .citation-hover.item-type {
     color: #a01713; }
 
 .prm-warning-color {
   color: #ff6347; }
   .prm-warning-color.prm-hue1, prm-advanced-search .warning-message {
-    color: #e1251b; }
+    color: #A91B14; }
   .prm-warning-color.prm-hue2, prm-tags-list ._md-chip-remove md-icon {
-    color: #e1251b; }
+    color: #A91B14; }
 
 .prm-citation-title, prm-citation-trails-item.active-item .item-title, prm-chapters-and-reviews .item-title, prm-opac .related-title .related-title-name, prm-gallery-collection .collection-folder .collection-overlay, prm-gallery-item .collection-element .item-title, prm-browse-search md-list.prm-list.prm-linkable-list-items md-list-item .item-title, prm-tags-results-list md-list.prm-list.prm-linkable-list-items md-list-item .item-title, md-list.prm-list.prm-linkable-list-items md-list-item .item-title {
   color: #7a4343; }
@@ -1146,8 +1150,11 @@ md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > a:focus + .
 md-list.prm-list.prm-linkable-list-items .md-button.arrow-link-button md-list-item > .md-button > .button-content:focus + ._md-list-item-inner, .md-button.arrow-link-button md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > .button-content:focus + ._md-list-item-inner {
   background-color: white; }
 
-.prm-peer-reviewed, .prm-course {
+.prm-peer-reviewed {
   color: #8359d4; }
+
+.prm-course {
+  color: #d459bf; }
 
 .prm-open-access {
   color: #f68212; }
@@ -1182,7 +1189,7 @@ a.item-title.md-primoExplore-theme {color:#0f7d00;}
 
 button, prm-collection-navigation-breadcrumbs-item .md-button.button-as-link.link-alt-color, prm-collection-navigation-breadcrumbs-item .section-title .bar prm-authentication prm-icon.md-button, prm-collection-navigation-breadcrumbs-item .section-title prm-icon.md-button.button-as-link, prm-collection-navigation-breadcrumbs-item prm-gallery-collection .collection-folder .item-actions .md-button, prm-collection-navigation-breadcrumbs-item prm-gallery-collection .collection-folder .item-actions button, prm-gallery-collection .collection-folder .item-actions prm-collection-navigation-breadcrumbs-item .md-button, prm-gallery-collection .collection-folder .item-actions prm-collection-navigation-breadcrumbs-item button {
     box-shadow: none;
-    color: #808080;
+    color: #bebebe;
 }
 
 /* OCLS CLEAR display */
@@ -1193,36 +1200,57 @@ button, prm-collection-navigation-breadcrumbs-item .md-button.button-as-link.lin
   color: #3a3a3a;
   width:100%;
   position:relative;
+  text-decoration: none!important;
+}
+.ocls-clear-display a {
+  text-decoration: none!important;
 }
 .ocls-clear-term {
   padding: 0 5px 0 0;
   width:90%;
+  text-decoration: none!important;
 }
 .ocls-clear-value {
     padding: 0 5px 0 5px;
     width:10%;
+    text-decoration: none!important;
 }
 .ocls-clear-odd {
     background-color:#f1f1f1;
+    text-decoration: none!important;
 }
 .ocls-clear-compact {
     width:unset;
     background-color:unset;
     padding: 0 2px 0 2px;
+    text-decoration: none!important;
 }
 .ocls-clear-Yes {
     background-color: #e7f4e4;
     color: #212121;
+    text-decoration: none!important;
 }
 .ocls-clear-No {
     background-color: #f9dede;
     color: #212121;
+    text-decoration: none!important;
 }
 .ocls-clear-Ask {
     background-color: #fff1d2;
     color: #212121;
+    text-decoration: none!important;
+}
+
+#public-note a {
+  text-decoration: none!important;
 }
 
 .dismiss-alert-button {
   color: white;
+}
+.bold-text, .md-autocomplete-suggestions li, b, md-nav-bar.vertical-nav-bar .md-nav-item .md-button.md-active, prm-alphabet-toolbar .md-button>span, prm-atoz-search-bar .advanced-search-wrapper .search-string .string-field.bold-text input, prm-atoz-search-bar .advanced-search-wrapper .search-string prm-main-menu[menu-type=full] md-button .string-field.md-headline input, prm-atoz-search-bar .advanced-search-wrapper md-input-container.bold-text input, prm-atoz-search-bar .advanced-search-wrapper md-input-container.text-bold input, prm-atoz-search-bar .advanced-search-wrapper prm-main-menu[menu-type=full] md-button md-input-container.md-headline input, prm-browse-search-bar .advanced-search-wrapper .search-string .string-field.bold-text input, prm-browse-search-bar .advanced-search-wrapper .search-string prm-main-menu[menu-type=full] md-button .string-field.md-headline input, prm-browse-search-bar .advanced-search-wrapper md-input-container.bold-text input, prm-browse-search-bar .advanced-search-wrapper md-input-container.text-bold input, prm-browse-search-bar .advanced-search-wrapper prm-main-menu[menu-type=full] md-button md-input-container.md-headline input, prm-chapters-and-reviews .item-title, prm-citation-trails-item.active-item .item-title, prm-gallery-collection .collection-folder h3, prm-gallery-item .collection-element .item-title, prm-main-menu[menu-type=full] md-button .md-headline, prm-main-menu[menu-type=full] md-button prm-atoz-search-bar .advanced-search-wrapper .search-string .string-field.md-headline input, prm-main-menu[menu-type=full] md-button prm-atoz-search-bar .advanced-search-wrapper md-input-container.md-headline input, prm-main-menu[menu-type=full] md-button prm-browse-search-bar .advanced-search-wrapper .search-string .string-field.md-headline input, prm-main-menu[menu-type=full] md-button prm-browse-search-bar .advanced-search-wrapper md-input-container.md-headline input, prm-main-menu[menu-type=full] md-button prm-newspapers-search-bar .advanced-search-wrapper .search-string .string-field.md-headline input, prm-main-menu[menu-type=full] md-button prm-newspapers-search-bar .advanced-search-wrapper md-input-container.md-headline input, prm-main-menu[menu-type=full] md-button prm-search-bar .advanced-search-wrapper .search-string .string-field.md-headline input, prm-main-menu[menu-type=full] md-button prm-search-bar .advanced-search-wrapper md-input-container.md-headline input, prm-main-menu[menu-type=full] md-button prm-tags-search-bar .advanced-search-wrapper .search-string .string-field.md-headline input, prm-main-menu[menu-type=full] md-button prm-tags-search-bar .advanced-search-wrapper md-input-container.md-headline input, prm-main-menu[menu-type=menu] .md-button, prm-newspapers-home md-card .md-button h3, prm-newspapers-home md-card md-button h3, prm-newspapers-search-bar .advanced-search-wrapper .search-string .string-field.bold-text input, prm-newspapers-search-bar .advanced-search-wrapper .search-string prm-main-menu[menu-type=full] md-button .string-field.md-headline input, prm-newspapers-search-bar .advanced-search-wrapper md-input-container.bold-text input, prm-newspapers-search-bar .advanced-search-wrapper md-input-container.text-bold input, prm-newspapers-search-bar .advanced-search-wrapper prm-main-menu[menu-type=full] md-button md-input-container.md-headline input, prm-opac .related-title .related-title-label, prm-opac .related-title .related-title-name, prm-opac .subsection-title, prm-page-nav-menu #resultsPerPage .counter-main .counter-count, prm-page-nav-menu #resultsPerPage .counter-main .counter-text, prm-page-nav-menu #speedDialWidget .counter-main .counter-count, prm-page-nav-menu #speedDialWidget .counter-main .counter-text, prm-page-nav-menu #speedDialWidget md-fab-speed-dial.md-left md-fab-actions .md-fab-action-item.current, prm-page-nav-menu #speedDialWidget md-fab-speed-dial.md-right md-fab-actions .md-fab-action-item.current, prm-page-nav-menu .current-bulk, prm-page-nav-menu .current-page, prm-paging-bar .current-page, prm-reference-entry-item .item-title, prm-search-bar .advanced-search-wrapper .search-string .string-field.bold-text input, prm-search-bar .advanced-search-wrapper .search-string prm-main-menu[menu-type=full] md-button .string-field.md-headline input, prm-search-bar .advanced-search-wrapper md-input-container.bold-text input, prm-search-bar .advanced-search-wrapper md-input-container.text-bold input, prm-search-bar .advanced-search-wrapper prm-main-menu[menu-type=full] md-button md-input-container.md-headline input, prm-search-error-message .message-suggestion, prm-tags-search-bar .advanced-search-wrapper .search-string .string-field.bold-text input, prm-tags-search-bar .advanced-search-wrapper .search-string prm-main-menu[menu-type=full] md-button .string-field.md-headline input, prm-tags-search-bar .advanced-search-wrapper md-input-container.bold-text input, prm-tags-search-bar .advanced-search-wrapper md-input-container.text-bold input, prm-tags-search-bar .advanced-search-wrapper prm-main-menu[menu-type=full] md-button md-input-container.md-headline input, strong {
+    font-weight: 500 !important;
+}
+.md-chips {
+  font-weight: 400 !important;
 }
